@@ -68,3 +68,24 @@ ceil 5.2
 5
 6
 ```
+Then there is the round keyword
+```
+round 5.4
+round 5.5
+```
+```
+5
+6
+```
+
+# Other Keywords
+Lastly the sign keyword
+Sign returns -1 or 1 depending if the number is negative or not
+```
+sign flip 5
+sign 5
+```
+```
+-1
+1
+```
