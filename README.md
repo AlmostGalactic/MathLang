@@ -8,7 +8,7 @@ to start this language you need to go to the folder you downloaded it in via cd 
 cd "folder here"
 ```
 then run the command
-```bash
+```shell
 deno run -A main.ts
 ```
 to startup the language!
