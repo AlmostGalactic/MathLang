@@ -22,6 +22,13 @@ MathLang can do math! (Of course)
 ```
 4
 ```
+It also can do powers too!
+```
+2^2
+```
+```
+4
+```
 If you want a negative number, use the flip keyword (or just to flip a numbers value ex: -1 to 1 and 1 to -1)
 ```
 5*flip 1 (or any number here)
