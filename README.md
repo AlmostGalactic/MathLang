@@ -4,7 +4,7 @@ A Simple language for math!
 In order to use this language your gonna need Deno.
 You can get it from [Here](https://deno.com/)
 to start this language you need to go to the folder you downloaded it in via cd command
-```bash
+```shell
 cd "folder here"
 ```
 then run the command
