@@ -137,6 +137,9 @@ export default class Parser {
             case TokenType.FLIP:
                 this.eat();
                 return { kind: "MathKeyword", key: TokenType.FLIP, arg: this.parse_expr() } as MathKeyword
+            case TokenType.ROUND:
+                this.eat();
+                return { kind: "MathKeyword", key: TokenType.ROUND, arg: this.parse_expr() } as MathKeyword
 
             default:
                 return this.parse_primary_expr();

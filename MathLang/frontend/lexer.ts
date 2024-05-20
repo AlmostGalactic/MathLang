@@ -20,6 +20,7 @@ export enum TokenType {
     FLOOR,
     SIGN,
     FLIP,
+    ROUND,
     NULL,
 }
 
@@ -33,6 +34,7 @@ const KEYWORDS: Record<string, TokenType> = {
     "sign": TokenType.SIGN,
     "null": TokenType.NULL,
     "flip": TokenType.FLIP,
+    "round": TokenType.ROUND,
 };
 
 function token(value = "", type: TokenType): Token {

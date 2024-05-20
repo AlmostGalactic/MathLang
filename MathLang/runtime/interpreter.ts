@@ -64,6 +64,8 @@ function eval_math_key_expr(key: TokenType, arg: NumberValue): NumberValue {
         result = Math.sign(arg.value);
     } else if (key == TokenType.FLIP) {
         result = (arg.value*-1);
+    } else if (key == TokenType.ROUND) {
+        result = Math.round(arg.value);
     }
 
     return { value: result, type: "number" };
